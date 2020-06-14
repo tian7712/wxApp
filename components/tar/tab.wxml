@@ -1,0 +1,7 @@
+<!--components/tar/tab.wxml-->
+<view>
+<view class="tab">
+<view class="tab-item {{item.isact?'isact':''}}" wx:for="{{tab}}" wx:key="id" data-index="{{index}}" bindtap="isactClick">{{item.name}}</view>
+</view>
+<view class="nr">111</view>
+</view>

@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "tar":"../../components/tar/tab"
+  }
+}

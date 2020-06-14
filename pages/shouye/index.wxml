@@ -1,0 +1,3 @@
+<!--pages/shouye/index.wxml-->
+<!-- <button open-type="contact">联系我</button> -->
+<tar tab="{{tab}}" bindclickChange="hand"></tar>

@@ -1,0 +1,24 @@
+/* components/tar/tab.wxss */
+.tab{
+  display: flex;
+margin: 0 20vw;
+
+}
+.tab-item{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  border-left: 1rpx solid red;
+  margin: 15rpx 0;
+  padding: 0 10rpx;
+}
+.tab-item:nth-child(1){
+  border-left:none;
+}
+.nr{
+  text-align: center;
+  
+}
+.isact{
+  font-weight: bold;
+}
